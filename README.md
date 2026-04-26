@@ -1,4 +1,4 @@
-# 🫀 Proyek 3 Magang: Cardiovascular Disease Classification
+# Proyek 3 Magang: Cardiovascular Disease Classification
 ### Sistem Peringatan Dini Penyakit Kardiovaskular Berbasis Machine Learning
 
 Proyek ini merupakan dokumentasi lengkap mengenai pengembangan model klasifikasi risiko penyakit kardiovaskular. Dengan memanfaatkan 70.000 data klinis, fokus utama proyek ini adalah mentransformasi data mentah menjadi sistem pendukung keputusan medis yang presisi, tervalidasi, dan memprioritaskan keselamatan pasien.
@@ -51,7 +51,7 @@ Dalam aplikasi medis nyata, **Recall (Sensitivitas)** adalah metrik paling krusi
 ---
 
 # 🚀 Cara Menjalankan
-1. **Persiapan Data:** Pastikan Anda memiliki file `kaggle.json` untuk mengunduh dataset secara otomatis melalui API.
+1. **Persiapan Data:** Unduh dataset cardio_train.csv secara manual melalui tautan Kaggle ini, lalu unggah file tersebut ke direktori utama Google Colab. Dengan metode ini, Anda dapat melewati langkah konfigurasi API Kaggle dan langsung menjalankan proses pembersihan serta pemodelan data.
 2. **Eksekusi Notebook:** Jalankan blok kode secara berurutan di Google Colab untuk menjaga kesinambungan variabel.
 3. **Evaluasi:** Tabel `df_performa` dan *Confusion Matrix* di bagian akhir akan menampilkan perbandingan detail antar model.
 
